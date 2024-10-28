@@ -1,16 +1,16 @@
-# flutter_lab
+# Flutter Lab - Firebase Authentication
 
-A new Flutter project.
+A Flutter application demonstrating Firebase Authentication with role-based access (Student, Staff, Admin).
 
-## Getting Started
+## Setup Instructions
 
-This project is a starting point for a Flutter application.
+1. Clone this repository
+2. Get your own `google-services.json`:
+   - Go to [Firebase Console](https://console.firebase.google.com/)
+   - Create a new project (or use existing)
+   - Add an Android app:
+     - Use package name: `com.example.flutter_lab`
+     - Download the `google-services.json`
+   - Place the downloaded file in: `android/app/google-services.json`
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+3. Run the app:
