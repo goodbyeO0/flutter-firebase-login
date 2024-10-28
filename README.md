@@ -1,3 +1,5 @@
+### BACA NI DULU BRO ###
+
 ## Step 1: Firebase Setup
 
 1. Go to [Firebase Console](https://console.firebase.google.com/)
