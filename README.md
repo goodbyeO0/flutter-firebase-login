@@ -1,16 +1,27 @@
-# Flutter Lab - Firebase Authentication
+## Step 1: Firebase Setup
 
-A Flutter application demonstrating Firebase Authentication with role-based access (Student, Staff, Admin).
+1. Go to [Firebase Console](https://console.firebase.google.com/)
+2. Create a new project (or use existing)
+3. Add Android app:
+   - Use your app's package name (found in `android/app/build.gradle`)
+   - Download `google-services.json`
+   - Place it in: `android/app folder`
+4. Set authentication for emai (boleh tengok YouTube)
 
-## Setup Instructions
+## Step 2: Firebase Setup at VSCode
+1. Copy `build/main.dart`
+2. Copy `android/app/build.gradle file`
+3. Copy `pubspec.yaml`
 
-1. Clone this repository
-2. Get your own `google-services.json`:
-   - Go to [Firebase Console](https://console.firebase.google.com/)
-   - Create a new project (or use existing)
-   - Add an Android app:
-     - Use package name: `com.example.flutter_lab`
-     - Download the `google-services.json`
-   - Place the downloaded file in: `android/app/google-services.json`
+## Step 3: Run the project
+1. flutter get pub
+2. flutter run
 
-3. Run the app:
+## Troubleshooting
+
+If you get errors:
+1. Check `google-services.json` is in correct location
+2. Run `flutter clean` then try again
+3. Make sure Firebase Authentication is enabled in Firebase Console
+
+## Semoga Tak NT
